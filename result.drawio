@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pKiFPjT_KWOgNsuEO2c0" name="Page-1">
+    <mxGraphModel dx="795" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uncia-B1"  value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+    <mxGeometry x="752.5333302815756" y="227.875" width="30" height="60" as="geometry" />
+  </mxCell>
+
+    <mxCell id="uncia-B1-text" value="B1 - Module" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uncia-B1" vertex="1" connectable="0">
+      <mxGeometry x="0.5" y="-0.26666666666666666"  relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+  
+    
+<mxCell id="uncia-M1" value="M1 - Simple Internal Module" data-type="simpleInternalNode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612" y="448.75" width="315" height="65" as="geometry" />
+        </mxCell>
+      
+<mxCell id="uncia-NET4" value="" data-type="networkZone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="133.875" width="227" height="55" as="geometry" />
+        </mxCell>
+      <mxCell id="uncia-NET4-text" value="NET4 - Network Zone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uncia-NET4" vertex="1" connectable="0">
+        <mxGeometry x="0.5" y="0.2727272727272727"  relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+        </mxCell>
+<mxCell id="uncia-M4" value="" data-type="externalCluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="579.375" width="454" height="255" as="geometry" />
+        </mxCell>
+      <mxCell id="uncia-M4-text" value="M4 - External Cluster of Zones" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uncia-M4" vertex="1" connectable="0">
+        <mxGeometry x="0.5" y="0.058823529411764705"  relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+        </mxCell>
+<mxCell id="uncia-U2" value="" style="endArrow=classic;html=1;rounded=0;endFill=0;startArrow=none;startFill=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uncia-B1" target="uncia-M1">
+    <mxGeometry width="50" height="50" relative="1" as="geometry">
+      <mxPoint as="sourcePoint" />
+      <mxPoint as="targetPoint" />
+    </mxGeometry>
+  </mxCell>
+<mxCell id="uncia-U2-text" value="U2 (Custom Edge)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uncia-U2" vertex="1" connectable="0">
+<mxGeometry x="0" relative="1" as="geometry">
+  <mxPoint as="offset" />
+</mxGeometry>
+</mxCell><mxCell id="uncia-B2" value="M4a - Additional Zone" data-type="externalAdditional" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0" >
+      <mxGeometry x="633" y="653.2518443753045" width="280" height="65" as="geometry" />
+    </mxCell>
+<mxCell id="uncia-B3" value="M4b - Additional Zone" data-type="externalAdditional" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0" >
+      <mxGeometry x="633" y="732.5286535344233" width="280" height="65" as="geometry" />
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

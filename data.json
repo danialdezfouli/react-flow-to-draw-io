@@ -1,0 +1,794 @@
+{
+    "elements": [
+        {
+            "id": "B1",
+            "type": "personNode",
+            "position": {
+                "x": 709.1999969482422,
+                "y": 197.875
+            },
+            "data": {
+                "label": "Module",
+                "children": [],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "handle": {}
+                },
+                "directionX": "center",
+                "directionY": "center",
+                "color": "#5b9bd5",
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 709.1999969482422,
+                    "y": 197.875
+                },
+                "width": 130,
+                "height": 150,
+                "handleBounds": {
+                    "source": [
+                        {
+                            "id": "B1-handle",
+                            "position": "left",
+                            "x": 62.99993896484375,
+                            "y": 72,
+                            "width": 6,
+                            "height": 6
+                        }
+                    ],
+                    "target": null
+                },
+                "isDragging": false
+            }
+        },
+        {
+            "id": "M1",
+            "type": "simpleInternalNode",
+            "position": {
+                "x": 691,
+                "y": 454.75
+            },
+            "data": {
+                "label": "Simple Internal Module",
+                "children": [],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M1-Top-e036c0c6-9a83-4087-ade1-4c7f592240c7",
+                                "used": true
+                            }
+                        ]
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M1-Left-d750e500-417f-42bb-9309-56c4df15b957",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M1-Bottom-075ce2e6-9181-4d62-aae5-4259b84c8bc7",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M1-Right-69a0d9d3-f4df-4bb6-a9e2-b8c58e455c35",
+                                "used": false
+                            }
+                        ]
+                    }
+                },
+                "directionX": "center",
+                "directionY": "center",
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 612,
+                    "y": 448.75
+                },
+                "width": 315,
+                "height": 65,
+                "handleBounds": {
+                    "source": [
+                        {
+                            "id": "M1-Top-e036c0c6-9a83-4087-ade1-4c7f592240c7",
+                            "position": "top",
+                            "x": 157.50023976637758,
+                            "y": 0,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M1-Left-d750e500-417f-42bb-9309-56c4df15b957",
+                            "position": "left",
+                            "x": 0,
+                            "y": 32.499974678934485,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M1-Bottom-075ce2e6-9181-4d62-aae5-4259b84c8bc7",
+                            "position": "bottom",
+                            "x": 157.50023976637758,
+                            "y": 59.000084097501066,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M1-Right-69a0d9d3-f4df-4bb6-a9e2-b8c58e455c35",
+                            "position": "right",
+                            "x": 309.0001984909135,
+                            "y": 32.499974678934485,
+                            "width": 6,
+                            "height": 6
+                        }
+                    ],
+                    "target": null
+                },
+                "isDragging": false
+            }
+        },
+        {
+            "id": "NET4",
+            "type": "networkZone",
+            "position": {
+                "x": 757,
+                "y": 48.875
+            },
+            "data": {
+                "label": "Network Zone",
+                "children": [],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": []
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": []
+                    }
+                },
+                "directionX": "flex-start",
+                "directionY": "flex-start",
+                "customHeight": 55,
+                "customWidth": 227,
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 771,
+                    "y": 133.875
+                },
+                "width": 227,
+                "height": 55,
+                "handleBounds": {
+                    "source": null,
+                    "target": null
+                },
+                "isDragging": false
+            }
+        },
+        {
+            "id": "B2",
+            "type": "externalAdditional",
+            "position": {
+                "x": 673.600558219579,
+                "y": 624.2518443753045
+            },
+            "data": {
+                "label": "Additional Zone",
+                "children": [],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "M4",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B2-Top-206272ac-4035-461d-a47a-9737ae53322b",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B2-Left-a54ce4d2-6c19-45a8-b9e3-9e569c740ddc",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B2-Bottom-5f66c560-3e4f-4cc8-a88a-cab12b573cfa",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B2-Right-bb7fdbd0-1826-482a-9d44-d4025d02a9fa",
+                                "used": false
+                            }
+                        ]
+                    }
+                },
+                "directionX": "center",
+                "directionY": "center",
+                "secondaryId": "M4a",
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 638.600558219579,
+                    "y": 653.2518443753045
+                },
+                "width": 280,
+                "height": 65,
+                "handleBounds": {
+                    "source": [
+                        {
+                            "id": "B2-Top-206272ac-4035-461d-a47a-9737ae53322b",
+                            "position": "top",
+                            "x": 140.00027472292433,
+                            "y": 0,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B2-Left-a54ce4d2-6c19-45a8-b9e3-9e569c740ddc",
+                            "position": "left",
+                            "x": 0,
+                            "y": 32.50011327275907,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B2-Bottom-5f66c560-3e4f-4cc8-a88a-cab12b573cfa",
+                            "position": "bottom",
+                            "x": 140.00027472292433,
+                            "y": 59.000084097501066,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B2-Right-bb7fdbd0-1826-482a-9d44-d4025d02a9fa",
+                            "position": "right",
+                            "x": 274.000268404007,
+                            "y": 32.50011327275907,
+                            "width": 6,
+                            "height": 6
+                        }
+                    ],
+                    "target": null
+                },
+                "isDragging": false
+            }
+        },
+        {
+            "id": "B3",
+            "type": "externalAdditional",
+            "position": {
+                "x": 648.4506607313822,
+                "y": 754.5286535344233
+            },
+            "data": {
+                "label": "Additional Zone",
+                "children": [],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "M4",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B3-Top-19742987-c774-415c-a30f-57680aef2efc",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B3-Left-b355db95-6f86-4e9a-9f95-cbe4827033fb",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B3-Bottom-8375df33-90de-4f5c-8b4e-f7605f232431",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "B3-Right-997b3044-3261-4567-9b0b-c324d3f6530d",
+                                "used": false
+                            }
+                        ]
+                    }
+                },
+                "directionX": "center",
+                "directionY": "center",
+                "secondaryId": "M4b",
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 639.4506607313822,
+                    "y": 732.5286535344233
+                },
+                "width": 280,
+                "height": 65,
+                "handleBounds": {
+                    "source": [
+                        {
+                            "id": "B3-Top-19742987-c774-415c-a30f-57680aef2efc",
+                            "position": "top",
+                            "x": 139.99972034762598,
+                            "y": 0,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B3-Left-b355db95-6f86-4e9a-9f95-cbe4827033fb",
+                            "position": "left",
+                            "x": 0,
+                            "y": 32.499974678934485,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B3-Bottom-8375df33-90de-4f5c-8b4e-f7605f232431",
+                            "position": "bottom",
+                            "x": 139.99972034762598,
+                            "y": 58.99994550367647,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "B3-Right-997b3044-3261-4567-9b0b-c324d3f6530d",
+                            "position": "right",
+                            "x": 273.99971402870864,
+                            "y": 32.499974678934485,
+                            "width": 6,
+                            "height": 6
+                        }
+                    ],
+                    "target": null
+                },
+                "isDragging": false
+            }
+        },
+        {
+            "id": "M4",
+            "type": "externalCluster",
+            "position": {
+                "x": 772,
+                "y": 643.375
+            },
+            "data": {
+                "label": "External Cluster of Zones",
+                "children": [
+                    {
+                        "id": "B2",
+                        "type": "externalAdditional",
+                        "position": {
+                            "x": 673.600558219579,
+                            "y": 624.2518443753045
+                        },
+                        "data": {
+                            "label": "Additional Zone",
+                            "children": [],
+                            "blockedNodes": [],
+                            "hiddenEdges": [],
+                            "parent": "M4",
+                            "ports": {
+                                "Top": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B2-Top-206272ac-4035-461d-a47a-9737ae53322b",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Left": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B2-Left-a54ce4d2-6c19-45a8-b9e3-9e569c740ddc",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Bottom": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B2-Bottom-5f66c560-3e4f-4cc8-a88a-cab12b573cfa",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Right": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B2-Right-bb7fdbd0-1826-482a-9d44-d4025d02a9fa",
+                                            "used": false
+                                        }
+                                    ]
+                                }
+                            },
+                            "directionX": "center",
+                            "directionY": "center",
+                            "secondaryId": "M4a"
+                        },
+                        "__rf": {
+                            "position": {
+                                "x": 641.600558219579,
+                                "y": 628.2518443753045
+                            },
+                            "width": 280,
+                            "height": 65,
+                            "handleBounds": {
+                                "source": [
+                                    {
+                                        "id": "B2-Top-206272ac-4035-461d-a47a-9737ae53322b",
+                                        "position": "top",
+                                        "x": 140.00001332122096,
+                                        "y": 0,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B2-Left-a54ce4d2-6c19-45a8-b9e3-9e569c740ddc",
+                                        "position": "left",
+                                        "x": 0,
+                                        "y": 32.50002339468828,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B2-Bottom-5f66c560-3e4f-4cc8-a88a-cab12b573cfa",
+                                        "position": "bottom",
+                                        "x": 140.00001332122096,
+                                        "y": 58.99999749303833,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B2-Right-bb7fdbd0-1826-482a-9d44-d4025d02a9fa",
+                                        "position": "right",
+                                        "x": 274.00013976419956,
+                                        "y": 32.50002339468828,
+                                        "width": 6,
+                                        "height": 6
+                                    }
+                                ],
+                                "target": null
+                            },
+                            "isDragging": false
+                        }
+                    },
+                    {
+                        "id": "B3",
+                        "type": "externalAdditional",
+                        "position": {
+                            "x": 648.4506607313822,
+                            "y": 754.5286535344233
+                        },
+                        "data": {
+                            "label": "Additional Zone",
+                            "children": [],
+                            "blockedNodes": [],
+                            "hiddenEdges": [],
+                            "parent": "M4",
+                            "ports": {
+                                "Top": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B3-Top-19742987-c774-415c-a30f-57680aef2efc",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Left": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B3-Left-b355db95-6f86-4e9a-9f95-cbe4827033fb",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Bottom": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B3-Bottom-8375df33-90de-4f5c-8b4e-f7605f232431",
+                                            "used": false
+                                        }
+                                    ]
+                                },
+                                "Right": {
+                                    "amount": 1,
+                                    "ids": [
+                                        {
+                                            "id": "B3-Right-997b3044-3261-4567-9b0b-c324d3f6530d",
+                                            "used": false
+                                        }
+                                    ]
+                                }
+                            },
+                            "directionX": "center",
+                            "directionY": "center",
+                            "secondaryId": "M4b"
+                        },
+                        "__rf": {
+                            "position": {
+                                "x": 719.4506607313822,
+                                "y": 738.5286535344233
+                            },
+                            "width": 280,
+                            "height": 65,
+                            "handleBounds": {
+                                "source": [
+                                    {
+                                        "id": "B3-Top-19742987-c774-415c-a30f-57680aef2efc",
+                                        "position": "top",
+                                        "x": 140.00003051757812,
+                                        "y": 0,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B3-Left-b355db95-6f86-4e9a-9f95-cbe4827033fb",
+                                        "position": "left",
+                                        "x": 0,
+                                        "y": 32.5,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B3-Bottom-8375df33-90de-4f5c-8b4e-f7605f232431",
+                                        "position": "bottom",
+                                        "x": 140.00003051757812,
+                                        "y": 59,
+                                        "width": 6,
+                                        "height": 6
+                                    },
+                                    {
+                                        "id": "B3-Right-997b3044-3261-4567-9b0b-c324d3f6530d",
+                                        "position": "right",
+                                        "x": 274.0000305175781,
+                                        "y": 32.5,
+                                        "width": 6,
+                                        "height": 6
+                                    }
+                                ],
+                                "target": null
+                            },
+                            "isDragging": true
+                        }
+                    }
+                ],
+                "blockedNodes": [],
+                "hiddenEdges": [],
+                "parent": "",
+                "ports": {
+                    "Top": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M4-Top-9ef4a72e-b613-4331-8e24-73b41706335c",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Left": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M4-Left-ac6da30a-82ba-4c2f-89af-0723fd532dc8",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Bottom": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M4-Bottom-a38a20c4-deb8-4226-9461-c5f50965e135",
+                                "used": false
+                            }
+                        ]
+                    },
+                    "Right": {
+                        "amount": 1,
+                        "ids": [
+                            {
+                                "id": "M4-Right-9ac8863e-02a9-4399-9761-c3dc1e1eadf8",
+                                "used": false
+                            }
+                        ]
+                    }
+                },
+                "directionX": "center",
+                "directionY": "flex-start",
+                "customHeight": 255,
+                "customWidth": 454,
+                "shouldUpdate": false
+            },
+            "__rf": {
+                "position": {
+                    "x": 546,
+                    "y": 579.375
+                },
+                "width": 454,
+                "height": 255,
+                "handleBounds": {
+                    "source": [
+                        {
+                            "id": "M4-Top-9ef4a72e-b613-4331-8e24-73b41706335c",
+                            "position": "top",
+                            "x": 227.00005342106633,
+                            "y": 0,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M4-Left-ac6da30a-82ba-4c2f-89af-0723fd532dc8",
+                            "position": "left",
+                            "x": 0,
+                            "y": 127.49994330776593,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M4-Bottom-a38a20c4-deb8-4226-9461-c5f50965e135",
+                            "position": "bottom",
+                            "x": 227.00005342106633,
+                            "y": 249.00002135516397,
+                            "width": 6,
+                            "height": 6
+                        },
+                        {
+                            "id": "M4-Right-9ac8863e-02a9-4399-9761-c3dc1e1eadf8",
+                            "position": "right",
+                            "x": 448.0001029879402,
+                            "y": 127.49994330776593,
+                            "width": 6,
+                            "height": 6
+                        }
+                    ],
+                    "target": null
+                },
+                "isDragging": false
+            },
+            "style": {
+                "boxShadow": "initial"
+            }
+        },
+        {
+            "source": "B1",
+            "sourceHandle": "B1-handle",
+            "target": "M1",
+            "targetHandle": "M1-Top-e036c0c6-9a83-4087-ade1-4c7f592240c7",
+            "id": "U2",
+            "type": "custom",
+            "data": {
+                "color": "#5b9bd5",
+                "label": "Custom Edge",
+                "handlers": [
+                    {
+                        "type": "vertical",
+                        "order": 2,
+                        "id": "16f6e673-1f15-4518-8eff-cc930ca8dde4",
+                        "x": 772.1999359130859,
+                        "y": null,
+                        "metaType": "dynamic",
+                        "sectionLength": 84.625
+                    },
+                    {
+                        "type": "horizontal",
+                        "order": 3,
+                        "id": "10ff601a-2415-4b42-974e-53a0c1a382bd",
+                        "x": null,
+                        "y": 360,
+                        "metaType": "dynamic",
+                        "sectionLength": 0.3003038532916662
+                    },
+                    {
+                        "type": "vertical",
+                        "order": 4,
+                        "id": "90405964-0289-4f56-b37d-3848bc972c9e",
+                        "x": 772.5002397663776,
+                        "y": null,
+                        "metaType": "dynamic",
+                        "sectionLength": 85.75
+                    }
+                ],
+                "path": "M 772.1999359130859,275.375 L 772.1999359130859,360 L 772.1999359130859,360 L 772.5002397663776,360 L 772.5002397663776,360 L 772.5002397663776,445.75",
+                "strokeWidth": 2,
+                "directionX": "center",
+                "directionY": "center",
+                "personTitleDirection": "top",
+                "labelAlignment": "center",
+                "externalHandlers": [],
+                "additionalFlows": [],
+                "labelLocked": true,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "hiddenEdges": null,
+                "shouldUpdate": false,
+                "targetNetworkZone": "-",
+                "sourceNetworkZone": "-"
+            },
+            "mainEdgeId": "U2"
+        }
+    ]
+}
